@@ -10,7 +10,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>register form</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../assets/css/login.css'>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -46,7 +46,7 @@
      
      <a href=""; style="margin-left:550px; color:black ;font-size:20px;";>forget password ?</a>
      <hr></hr>
-     <a href ="registration.html";  style="margin-left:550px; color:black ;font-size:20px;";>create new account..</a>
+     <a href ="./registration.php";  style="margin-left:550px; color:black ;font-size:20px;";>create new account..</a>
     
 </body>
 </html>

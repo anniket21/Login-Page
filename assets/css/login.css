@@ -1,5 +1,5 @@
 body{
-    background:url(/home/aniket/Downloads/image1.jpg);
+    background:url('../Image/image1.jpg');
     background-repeat: no-repeat;
     
     }

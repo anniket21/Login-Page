@@ -7,7 +7,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>admin login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='registration.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../assets/css/registration.css'>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -22,7 +22,7 @@
     <h1>Registration form</h1>
 
 <div class ="reg1">
-    <form action="reg.php" method = "POST">
+    <form action="../controller/reg.php" method = "POST">
     
         <label>first name</label>
     <input  type ="firstname" name="firstname" placeholder="first name">
