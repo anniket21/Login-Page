@@ -1,8 +1,3 @@
-
-<?php  include "log.php";  ?>
-<?php  include "dbconn";   ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +19,7 @@
 <body>
    
     <div class ="form1">
-    <form action ="log.php" method ="POST">
+    <form action ="../controller/log.php" method ="POST">
         <h1 style ="margin-left: 130px;padding-bottom:9px;color:black;">admin login</h1>
      
         <label style="font-size:18px;color:black";>username</label>   
@@ -38,7 +33,7 @@
      <br>
      <br>
      <button class="btn btn-primary" style = "margin-left:110px"; type ="cancel">cancel</button> 
-     <button class="btn btn-success" style = "margin-left:auto"; type ="submit">submit</button>
+     <a href="../view.dashboard.view.php" ><button class="btn btn-success" style = "margin-left:auto"; type ="submit">submit</button></a>
     </form>
      </div>
      <br>
@@ -50,3 +45,5 @@
     
 </body>
 </html>
+
+

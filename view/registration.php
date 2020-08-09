@@ -1,5 +1,3 @@
-<?php include "reg.php"; ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +47,7 @@
     </form>
 </div>
 <hr></hr>
-<a style="color:black;margin-left:570px; font-size:20px ;" href="login.html";>login into dashboard </a>
+<a style="color:black;margin-left:570px; font-size:20px ;" href="login.php";>login into dashboard </a>
 
 </body>
 </html>

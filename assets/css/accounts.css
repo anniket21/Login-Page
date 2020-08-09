@@ -1,0 +1,116 @@
+.navbar a.back{
+position: relative;
+left:10px;
+
+}
+
+.navbar{
+    display:flex;
+    width:1300px;
+    height:70px;
+    background-color: rgba(157, 255, 0, 0.685);
+}
+
+.navbar input{
+    position: relative;
+    top:20px;
+    left: 23px;
+    width:200px;
+    height:30px;
+    border-radius: 20px;
+    border-style:none;
+    padding-left: 80px;
+
+}
+
+.navbar button {
+    height: 30px;
+    width:70px;
+    position:relative;
+    left:45px;
+    top:20px;
+    background-color: rgb(146, 205, 50);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.navbar button :hover {
+    color: rgb(78, 50, 205);
+
+
+}
+
+.navbar  a {
+    position: relative;
+    top:20px;
+    left: 800px;
+}
+
+.navbar span a{
+    position: relative;
+    top:-17px;
+    left: 1150px; 
+    font-size: 18px;
+    
+}
+
+header span a{
+    color :black;
+    display: block;
+    
+
+}
+
+header span a:hover { 
+    color:white;
+    text-decoration: none;
+
+}
+
+.main h1{
+    position: relative;
+    top:20px;
+    color:grey;
+    text-align: center;
+
+}
+
+.main select{
+    margin-left:60px;
+    width:290px;
+    height:36px;
+    border-radius:10px;
+}
+
+.main label{
+    display:flex;
+   display :inline-block;
+    color:grey;
+    font-size:21px;
+    position:relative;
+    left:400px;
+    top:70px;
+}
+
+.main input{
+    position: relative;
+    top:1px;
+    width:300px;
+    border-radius: 10px;
+    padding-left: 66px;
+
+    
+}
+
+.main button{
+    position: relative;
+    top:100px;
+    left: 660px;
+    width:100px;
+    color:black;
+    background-color: green;
+    border-radius: 8px;
+    border-style: none;
+
+    
+}

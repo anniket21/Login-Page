@@ -1,0 +1,162 @@
+.navbar{
+    display:flex;
+    width:1300px;
+    height:70px;
+    background-color: rgba(157, 255, 0, 0.685);
+}
+
+.navbar input{
+    position: relative;
+    top:20px;
+    left: 23px;
+    width:200px;
+    height:30px;
+    border-radius: 20px;
+    border-style:none;
+    padding-left: 80px;
+
+}
+
+.navbar button {
+    height: 30px;
+    width:70px;
+    position:relative;
+    left:45px;
+    top:20px;
+    background-color: rgb(146, 205, 50);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.navbar button :hover {
+    color: rgb(78, 50, 205);
+
+
+}
+
+.navbar  a {
+    position: relative;
+    top:20px;
+    left: 830px;
+}
+
+.navbar span a{
+    position: relative;
+    top:-17px;
+    left: 1150px; 
+    font-size: 18px;
+    
+}
+
+header span a{
+    color :black;
+    display: block;
+    
+
+}
+
+header span a:hover { 
+    color:white;
+    text-decoration: none;
+
+}
+    .wrapper{
+        position: relative;
+        display:flex;
+    }
+
+    .wrapper .sidebar{
+        position: fixed;
+        width:280px;
+        height:600px;
+        background-color:  rgba(157, 255, 0, 0.685); 
+        position: relative;
+        top:-20px;)
+
+    }
+
+    .wrapper .sidebar li{
+        padding-top: 19px;
+        margin-top:27px;
+        
+
+    }
+
+    .wrapper .sidebar ul li a{
+        font-size: 20px;
+        color:black;
+        
+        
+    }
+
+    .wrapper .sidebar ul li a:hover{
+        color:whitesmoke;
+        text-decoration: none;
+
+    }
+    .wrapper .sidebar .main label{
+        position: relative;
+        left:300px; 
+        color:rgba(255, 255, 255, 0.295);
+
+    }
+
+    .wrapper .main h1{
+        position:relative;
+        bottom: 25px;
+        left:210px;
+        color:rgba(255, 255, 255, 0.295);
+    }
+     .wrapper .main{
+           position: relative;
+           left:120px;
+           top:50px;
+           
+    }
+
+    .wrapper .main label{
+        font-style: italic;
+        font-size: 20px;
+        display:inline-block;
+       
+    }
+
+    .wrapper .main select{
+        
+        margin-left:78px;
+        width:265px;
+        height:34px;
+        border-radius:6px;
+        padding-left: 70px;
+        color:black;
+         font-size:20px;        
+    }
+
+    .wrapper .main label input{
+    border-radius: 9px ;
+    width:270px;
+    padding-left: 50px;
+    
+    }
+
+    .wrapper .main button {
+        margin-left: 70px;
+
+    }  
+
+    .wrapper .main button.primary {
+        background-color:rgb(0, 162, 255);
+        width:70px;
+        border-radius: 5px;
+        border-style: none;
+        margin-left:240px;
+
+    }  
+
+    .wrapper .main button.success{
+        background-color:rgb(0, 255, 42);
+        width:70px;
+        border-radius: 5px;
+       border-style: none;
+       margin-left:2px ;
+    }

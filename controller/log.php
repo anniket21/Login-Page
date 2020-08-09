@@ -1,5 +1,7 @@
 <?php
-include "dbconn.php";
+
+include '../model/dbconn.php';
+#print_r($_POST); exit;
 
 if(isset($_POST['submit'])){
 
@@ -24,8 +26,6 @@ if(empty($_POST['password'])){
 if(strlen($_POST['password']) <=  6) {
 echo "minimum at least 6 character";
 } 
-
-
 //insert query.........................
 
 echo $insert_query = "insert into admin(username,password) values('$username','$password')";
@@ -37,7 +37,7 @@ if ($iquery){
 }
 
 else {
-echo "fail" .mysqli_error($conn);
+echo "fail" ;
 
 }
 
