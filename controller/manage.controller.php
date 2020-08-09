@@ -59,7 +59,7 @@ else{
 /// for update..................
 
 
-if (isset($_POST['update'])){
+/*if (isset($_POST['update'])){
 
 
     $Item_Name= mysqli_real_escape_string($conn,$_POST['itemname']);
@@ -80,62 +80,6 @@ if (isset($_POST['update'])){
 
       WHERE  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 ?>

@@ -1,3 +1,5 @@
+<?php include ('../controller/allitems.controller.php') ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,21 +41,25 @@
        <th>item discount</th>
        <th>item price</th>
        <th>item total price</th>
-       <th>function</th>
+       
        </tr>
 
-          <tr>
-          
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          
+         
+         <?php while($items = mysqli_fetch_assoc($squery)){
 
-          </tr>
+?>
+         <tr>
+          <td style="color:lawngreen;"><?php echo $items ['Item_Name']; ?></td>
+          <td style="color:lawngreen;"><?php echo $items ['Item_Code']; ?></td>
+          <td style="color:lawngreen;"><?php echo $items ['Item_Quantity'];?></td>
+          <td style="color:lawngreen;"><?php echo $items ['Item_Discount']; ?></td>
+          <td style="color:lawngreen;"><?php echo $items ['Item_Price'];?></td>
+          <td style="color:lawngreen;"><?php echo $items ['Item_Total_Price'];?></td>
+         </tr>
+       <?php
+         }
+?>
+          
 
 </table>
 
